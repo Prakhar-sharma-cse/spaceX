@@ -1,0 +1,38 @@
+.container {
+  width: 1460px;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.btn {
+  outline: none;
+  font: size 20px;
+  border: 1px solid var(--pure);
+  padding: 12px 40px;
+  border-radius: 50px;
+  color: var(--dark);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--pure);
+}
+
+.btnsec {
+  background: transparent;
+  color: var(--pure);
+  transition: all 0.5s;
+}
+
+.btnsec:hover {
+  background: var(--pure);
+  color: var(--dark);
+}
+
+button {
+  top: 30px;
+}
