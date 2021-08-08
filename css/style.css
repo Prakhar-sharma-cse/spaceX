@@ -428,6 +428,6 @@ footer ul li:hover {
 }
 
 .footer-socials:hover{
-  color:#fff;
+   color: var(--pure);
   
 }
