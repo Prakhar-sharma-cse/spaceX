@@ -17,7 +17,7 @@ body {
 
 header {
   background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
-    url("/images/sunrise.jpg");
+    url("./images/sunrise.jpg");
   min-height: 100vh;
   background-size: cover;
 }
