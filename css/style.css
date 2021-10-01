@@ -426,3 +426,16 @@ footer ul li {
 footer ul li:hover {
   color: var(--pure);
 }
+
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 30px;
+}
+
+.ic{
+  margin-bottom: 6px;
+  position: absolute;
+}
