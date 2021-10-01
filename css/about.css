@@ -2,3 +2,33 @@
 .container{
     font-size: medium;
 }
+
+.products{
+    display: flex;
+    position: relative;
+    left: 10em;
+    overflow-x: hidden;
+}
+
+.item{
+    margin: 2em;
+}
+.item img{
+    width: 30em;
+}
+#prod{
+    position: relative;
+    left: 4.5em;
+    font-size: 2em;
+    margin: 10px;
+}
+
+header{
+    overflow: hidden ;
+}
+
+
+.p{
+    text-align: center;
+    margin: 2px;
+}
