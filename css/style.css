@@ -108,7 +108,12 @@ header nav .nav-right .search > img {
 .social div:hover {
   background: var(--pure);
 }
+.social div:hover > a > i{
+  color: var(--dark);
+  font-size: 30px;
+  transition: all 0.5s ease;
 
+}
 .fab {
   color: var(--pure);
   font-size: 20px;
