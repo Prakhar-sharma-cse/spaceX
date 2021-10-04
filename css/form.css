@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbnRhY3QlMjB1c3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    font-weight: bolder;
+    font-style: times;
+    text-align: center;
+}
+
+.name{
+    font-size: 200%;
+    color: rgb(247, 181, 159);
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email{
+    font-size: 200%;
+    color: rgb(247, 181, 159) ;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.phone{
+    font-size: 200%;
+    color: rgb(247, 181, 159);
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message{
+    font-size: 200%;
+    color: rgb(247, 181, 159);
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#name{
+    margin-left: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 105, 105);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+#email{
+    margin-left: 2%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 105, 105);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+#phone{
+    margin-left: 2%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 105, 105);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+#message{
+    font-size: 15px;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 105, 105);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+form{
+    border: 10px;
+    border-radius: 10%;
+    border: 2px solid rgb(129, 105, 105);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 70px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #121213 0%, #b4b2b6 100%);
+
+}
+
+button{
+    font-size: 35px;
+    
+    font-style:arial;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 42%;
+}
