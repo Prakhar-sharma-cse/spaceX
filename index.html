@@ -13,7 +13,25 @@
   </head>
   <body>
     <script src="./js/app.js"></script>
+    <button class="backToTop" onClick="toTheTop()" id="topButton">Back to top</button>
+    <script>
+      topButton = document.getElementById("topButton");
+      window.onscroll = function() {changeButtonStyle()};
 
+      function changeButtonStyle() {
+          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+              topButton.style.display = "block";
+          }
+          else {
+              topButton.style.display = "none";
+          }
+      }
+
+      function toTheTop() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
     <header>
       <nav>
         <div class="logo">

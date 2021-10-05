@@ -15,6 +15,29 @@ body {
   background: var(--primary);
 }
 
+.backToTop {
+  color: black;
+  z-index: 99;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  padding: 10px 10px;
+  position: fixed;
+  border: none;
+  right: 5%;
+  top: 95%;
+  background-color: white;
+  border-radius: 10px;
+  transition: color 1s, background-color 1s, font-size 1s;
+}
+
+.backToTop:hover{
+  color: white;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+
 header {
   background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
   url("https://raw.githubusercontent.com/Prakhar-sharma-cse/spaceX/main/images/sunrise.jpg");
